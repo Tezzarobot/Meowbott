@@ -110,12 +110,12 @@ PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
 #Fsub
-auth_channel = environ.get('AUTH_CHANNEL', '-1001573545776')
+auth_channel = environ.get('AUTH_CHANNEL', 'https://t.me/+DlCy5E2W-zs5NjY1)
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 # Set to False inside the bracket if you don't want to use Request Channel else set it to Channel ID
 REQ_CHANNEL = environ.get("REQ_CHANNEL", 'True')
 REQ_CHANNEL = int(REQ_CHANNEL,) if REQ_CHANNEL and id_pattern.search(REQ_CHANNEL,) else False
-JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DATABASE_URI, 'https://t.me/+8ARp7gneeN4yYmE1')
+JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DATABASE_URI")
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
