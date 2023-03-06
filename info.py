@@ -83,14 +83,14 @@ MONGO_URL = os.environ.get('MONGO_URL', "None")
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 
 # Others
-DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
+DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1001685648388').split()]
 PORT = os.environ.get("PORT", "8080")
 MAX_BTN = int(environ.get('MAX_BTN', "10"))
 S_GROUP = environ.get('S_GROUP',"https://t.me/galaxy_cinemas")
 MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/GalexyCinemas")
 FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+MUGQPbQKXAU0OTM1")
 MSG_ALRT = environ.get('MSG_ALRT', '𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐃𝐫 Althaf 𝐒𝐢𝐫 💜')
-FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
+FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '-1001558372738'))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001868397902'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'GalexyCinemas')
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
