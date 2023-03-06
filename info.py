@@ -61,7 +61,7 @@ MELCOW_VID = environ.get('MELCOW_VID',"https://telegra.ph/file/b26637d70f3630a7e
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5002985537 5292845540').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', 'None').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001786006051').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_grp = environ.get('AUTH_GROUP')
@@ -74,8 +74,8 @@ TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "None")
-DATABASE_NAME = environ.get('DATABASE_NAME', "None")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Autofilter1:Autofilter1@cluster0.y3awnt4.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Autofilter1")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 MONGO_URL = os.environ.get('MONGO_URL', "None")
 
@@ -86,13 +86,13 @@ DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 PORT = os.environ.get("PORT", "8080")
 MAX_BTN = int(environ.get('MAX_BTN', "10"))
-S_GROUP = environ.get('S_GROUP',"https://t.me/Cinemathattakam_Group")
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/CT_Arena")
+S_GROUP = environ.get('S_GROUP',"https://t.me/galaxy_cinemas")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/GalexyCinemas'")
 FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+MUGQPbQKXAU0OTM1")
-MSG_ALRT = environ.get('MSG_ALRT', '𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐃𝐫 സാത്താൻ 𝐒𝐢𝐫 💜')
+MSG_ALRT = environ.get('MSG_ALRT', '𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 𝐃𝐫 Althaf 𝐒𝐢𝐫 💜')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 'None'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'CT_Arena')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'GalexyCinemas')
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
