@@ -110,7 +110,7 @@ PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
 #Fsub
-auth_channel = environ.get('AUTH_CHANNEL', 'https://t.me/+DlCy5E2W-zs5NjY1')
+auth_channel = environ.get('AUTH_CHANNEL', '-1001573545776')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 # Set to False inside the bracket if you don't want to use Request Channel else set it to Channel ID
 REQ_CHANNEL = environ.get("REQ_CHANNEL", 'https://t.me/+DlCy5E2W-zs5NjY1')
