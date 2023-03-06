@@ -368,7 +368,7 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢ�
       <b>⍟───[ Cʀᴇᴅɪᴛꜱ ]───⍟</b>   
 𝖳𝗁𝖺𝗇𝗄 𝖳𝗈 : <a href=https://github.com/EvamariaTG>Eᴠᴀ ᴍᴀʀɪᴀ​</a>
 𝖢𝗈𝖽𝖾𝖽 𝖡𝗒 : <a href=https://t.me/RobinAndrews>Robin</a>
-𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝖽 𝖡𝗒 : <a href=https://t.me/RobinAndrews>Robin</a>
+𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝖽 𝖡𝗒 : <a href=https://t.me/Sathan_Of_Telegram>『🔱』Dr.സാത്താൻ</a>
 𝖥𝖾𝖺𝗍𝗎𝗋𝖾 𝖠𝖽𝖽𝖾𝖽 𝖡𝗒 : <a href=https://github.com/CrazyDeveloperTG/Doctor-Strange>𝐂𝐫𝐚𝐳𝐲 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 ᠰ 𝐓𝐆</a>
 
        <b>⍟───[ꜱᴏᴜʀᴄᴇ ᴄᴏᴅᴇꜱ]───⍟</b>
