@@ -376,8 +376,8 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢ�
 𝖥𝗈𝗋𝗄𝖾𝖽 𝖿𝗋𝗈𝗆 : <a href=https://t.me/RobinAndrews>Asᴋ ʜɪᴍ 💻</a>
 
        <b>⍟───[Mᴀɪɴʟʏ Eᴅɪᴛᴛᴇᴅ]───⍟</b>
-𝖬𝖺𝗂𝗇𝗅𝗒 𝖤𝖽𝗂𝗍𝗍𝖾𝖽 𝖡𝗒 : <a href=https://t.me/RobinAndrews>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
-𝖲𝗉𝖾𝖼𝗂𝖺𝗅 𝖳𝗁𝖺𝗇𝗄𝗌 𝖳𝗈 : <a href=https://t.me/RobinAndrews>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>"""
+𝖬𝖺𝗂𝗇𝗅𝗒 𝖤𝖽𝗂𝗍𝗍𝖾𝖽 𝖡𝗒 : <a href=https://t.me/Althafser>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+𝖲𝗉𝖾𝖼𝗂𝖺𝗅 𝖳𝗁𝖺𝗇𝗄𝗌 𝖳𝗈 : <a href=https://t.me/Althafser>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>"""
 
     FIlTERS_TXT = """
 <b>ʜᴇʏ,
