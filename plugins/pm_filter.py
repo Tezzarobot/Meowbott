@@ -962,12 +962,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "group_info":
         buttons = [[
-            InlineKeyboardButton("Bᴏᴛ Dᴀᴛᴀʙᴀꜱᴇ", url="t.me/galaxy_cinemas")
+            InlineKeyboardButton("Bᴏᴛ Dᴀᴛᴀʙᴀꜱᴇ", url="https://t.me/+ncssDuokFuszNzZl")
                   ],[
-            InlineKeyboardButton("Gʀᴏᴜᴘ", url="t.me/galaxy_cinemas"),
+            InlineKeyboardButton("Gʀᴏᴜᴘ", url="https://t.me/+ncssDuokFuszNzZl"),
             InlineKeyboardButton("​Cʜᴀɴɴᴇʟ", url="t.me/GalexyCinemas")
                   ],[
-            InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url="t.me/galaxy_cinemas"),
+            InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/+ncssDuokFuszNzZl"),
             InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ", url="t.me/GalexyCinemas")
                   ],[
             InlineKeyboardButton("⇍Bᴀᴄᴋ", callback_data="start")
