@@ -24,7 +24,7 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢ�
 <b>- 𝚃𝙷𝙸𝚂 𝙸𝚂 𝙰𝙽 𝙸𝚂 𝙾𝙿𝙴𝙽 𝚂𝙾𝚄𝚁𝙲𝙴 𝙿𝚁𝙾𝙹𝙴𝙲𝚃. 
 - 𝚂𝙾𝚄𝚁𝙲𝙴 - 𝙲𝙻𝙸𝙲𝙺 𝚁𝙴𝙿𝙾 𝙱𝚄𝚃𝚃𝙾𝙽</b>
 <b>DEVS:</b>
-- <a href=https://t.me/Galaxy_cinemas>Galexy Cinemas ™</a>"""
+- <a href=https://t.me/+ncssDuokFuszNzZl>Galexy Cinemas ™</a>"""
 
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
@@ -307,7 +307,7 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢ�
     CUSTOM_FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : <code>{file_name}</code>
 
 ╔═════•✧❅✦❅✧•═════╗
-▣ <a href=https://t.me/galaxy_cinemas>Galexy Cinemas ™​</a>
+▣ <a href=https://t.me/+ncssDuokFuszNzZl>Galexy Cinemas ™​</a>
 ▣ <a href=https://t.me/GalexyCinemas>GalexyCinemas™</a>
 ╚═════•✧❅✦❅✧•═════╝</b>"""
 
