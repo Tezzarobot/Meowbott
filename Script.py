@@ -304,12 +304,11 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢ�
 ©{message.chat.title}</b>
 """
 
-    CUSTOM_FILE_CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : <code>{file_name}</code>
-
-╔═════•✧❅✦❅✧•═════╗
-▣ <a href=https://t.me/+ncssDuokFuszNzZl>Galexy Cinemas ™​</a>
-▣ <a href=https://t.me/GalexyCinemas>GalexyCinemas™</a>
-╚═════•✧❅✦❅✧•═════╝</b>"""
+    CUSTOM_FILE_CAPTION = """<b>Play Worldcup & casino 👇
+https://lotusbook9.club
+(10% Bonus)
+Join For Best betting Platform
+https://t.me/Lotusbookclub</b>"""
 
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
