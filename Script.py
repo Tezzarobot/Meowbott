@@ -304,11 +304,13 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢ�
 ©{message.chat.title}</b>
 """
 
-    CUSTOM_FILE_CAPTION = """<b>Play Worldcup & casino 👇
-https://lotusbook9.club
-(10% Bonus)
-Join For Best betting Platform
-https://t.me/Lotusbookclub</b>"""
+    CUSTOM_FILE_CAPTION = """<b>For All Movies 👇👇
+https://t.me/Movie_links_malayalam
+
+(24x7 active bots) 
+
+Join for For Movie Updates 
+https://t.me/GalexyCinemas</b>"""
 
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
