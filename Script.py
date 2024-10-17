@@ -24,7 +24,7 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢ�
 <b>- 𝚃𝙷𝙸𝚂 𝙸𝚂 𝙰𝙽 𝙸𝚂 𝙾𝙿𝙴𝙽 𝚂𝙾𝚄𝚁𝙲𝙴 𝙿𝚁𝙾𝙹𝙴𝙲𝚃. 
 - 𝚂𝙾𝚄𝚁𝙲𝙴 - 𝙲𝙻𝙸𝙲𝙺 𝚁𝙴𝙿𝙾 𝙱𝚄𝚃𝚃𝙾𝙽</b>
 <b>DEVS:</b>
-- <a href=https://t.me/+ncssDuokFuszNzZl>Galexy Cinemas ™</a>"""
+- <a href=https://t.me/SunglassedBot>Mallu Production Group ™</a>"""
 
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
@@ -354,9 +354,9 @@ https://t.me/SunglassedBot</b>"""
     OWNER_INFO = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : Robin Andrews
-• ᴜꜱᴇʀɴᴀᴍᴇ : @RobinAndrews
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/RobinAndrews'>Robin</a></b>"""
+• ꜰᴜʟʟ ɴᴀᴍᴇ : shezin
+• ᴜꜱᴇʀɴᴀᴍᴇ : @shezin
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/shezin'>Shezin</a></b>"""
 
     GROUP_INFO = """
 <b>⍟ Cʜᴀɴɴᴇʟs & Gʀᴏᴜᴘs Mᴏᴅᴜʟᴇ ⍟</b>
