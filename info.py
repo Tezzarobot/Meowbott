@@ -74,8 +74,8 @@ TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://autoacceptbot123:autoacceptbot123@cluster0.qtw04.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "autoacceptbot123")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 MONGO_URL = os.environ.get('MONGO_URL', "None")
 
@@ -86,13 +86,13 @@ DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1001685648388').split()]
 PORT = os.environ.get("PORT", "8080")
 MAX_BTN = int(environ.get('MAX_BTN', "10"))
-S_GROUP = environ.get('S_GROUP',"https://t.me/+ncssDuokFuszNzZl")
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/Movie_links_malayalam")
+S_GROUP = environ.get('S_GROUP',"https://t.me/+q2A8BkC4rOkzMTM1")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/SunglassedBot")
 FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+JxHyRte76PhkYmY1")
-MSG_ALRT = environ.get('MSG_ALRT', '𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 Althaf 𝐒𝐢𝐫 🤍')
+MSG_ALRT = environ.get('MSG_ALRT', '𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮 🤍')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', '-1001978977208'))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001868397902'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'GalexyCinemas')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'SunglassedBot')
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
@@ -110,10 +110,10 @@ PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
 #Fsub
-auth_channel = environ.get('AUTH_CHANNEL', '-1002225369967')
+auth_channel = environ.get('AUTH_CHANNEL', '')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 # Set to False inside the bracket if you don't want to use Request Channel else set it to Channel ID
-REQ_CHANNEL = environ.get("REQ_CHANNEL", '-1002225369967')
+REQ_CHANNEL = environ.get("REQ_CHANNEL", '')
 REQ_CHANNEL = int(REQ_CHANNEL,) if REQ_CHANNEL and id_pattern.search(REQ_CHANNEL,) else False
 JOIN_REQS_DB = environ.get("JOIN_REQS_DB", DATABASE_URI)
 
