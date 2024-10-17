@@ -305,12 +305,12 @@ Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢ�
 """
 
     CUSTOM_FILE_CAPTION = """<b>For All Movies 👇👇
-https://t.me/Movie_links_malayalam
+https://t.me/+q2A8BkC4rOkzMTM1
 
 (24x7 active bots) 
 
 Join for For Movie Updates 
-https://t.me/GalexyCinemas</b>"""
+https://t.me/SunglassedBot</b>"""
 
     RESTART_TXT = """
 <b>Bᴏᴛ Rᴇsᴛᴀʀᴛᴇᴅ !
