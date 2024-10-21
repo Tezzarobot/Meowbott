@@ -244,7 +244,7 @@ This module only works for my admins
 🗃️ ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱
 🆓 ғʀᴇᴇ sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱</b>
 
-🌀 DEVELOPER :<a href='https://t.me/RobinAndrews'>CLICK HERE</a></b>"""
+🌀 DEVELOPER :<a href='https://t.me/shezin'>CLICK HERE</a></b>"""
 
 
     CARB_TXT = """<b>Help</b> : 𝗖𝗔𝗥𝗕𝗢𝗡
