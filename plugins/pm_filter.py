@@ -665,7 +665,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer("ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ᴍᴇ 🥳")
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('ʀᴇᴘᴏ', url='https://t.me/SunglassedBot'),
+            InlineKeyboardButton('ʀᴇᴘᴏ', url='https://t.me/badshacat'),
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -866,7 +866,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "deploy":
         buttons = [[
-           InlineKeyboardButton('ʀᴇᴘᴏ', url='https://t.me/SunglassedBot'),
+           InlineKeyboardButton('ʀᴇᴘᴏ', url='https://t.me/badshacat'),
            InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/shezin')
         ], [
             InlineKeyboardButton('⇍Bᴀᴄᴋ', callback_data='help')
@@ -962,13 +962,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "group_info":
         buttons = [[
-            InlineKeyboardButton("Bᴏᴛ Dᴀᴛᴀʙᴀꜱᴇ", url="https://t.me/SunglassedBot")
+            InlineKeyboardButton("Bᴏᴛ Dᴀᴛᴀʙᴀꜱᴇ", url="https://t.me/badshacat")
                   ],[
             InlineKeyboardButton("Gʀᴏᴜᴘ", url="https://t.me/+q2A8BkC4rOkzMTM1"),
-            InlineKeyboardButton("​Cʜᴀɴɴᴇʟ", url="t.me/SunglassedBot")
+            InlineKeyboardButton("​Cʜᴀɴɴᴇʟ", url="t.me/badshacat")
                   ],[
             InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/+q2A8BkC4rOkzMTM1"),
-            InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/SunglassedBot")
+            InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/badshacat")
                   ],[
             InlineKeyboardButton("⇍Bᴀᴄᴋ", callback_data="start")
         ]]   
