@@ -11,7 +11,7 @@ DICE_E_MOJI = "🎲"
 
 
 @Client.on_message(
-    filters.command(["roll", "dice"], COMMAND_HAND_LER) &
+    filters.command(["dddddddf", "gggggggf"], COMMAND_HAND_LER) &
     f_onw_fliter
 )
 async def roll_dice(client, message):
