@@ -1,7 +1,9 @@
 class script(object):
-    START_TXT ="""<b>Hᴇʏ {}, ɪᴍ  ᴀɴ Aᴡᴇsᴏᴍᴇ Aᴜᴛᴏ + Mᴀɴᴜᴀʟ Fɪʟᴛᴇʀ + Gʀᴏᴜᴘ Mᴀɴᴀɢᴇʀ Bᴏᴛ.
-    
-Aᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴛᴏ sᴇᴇ ᴛʜᴇ ᴍᴀɢɪᴄ ᴏʀ ʀᴇᴀᴅ ᴍᴏʀᴇ ғʀᴏᴍ ᴛʜᴇ ᴍᴇɴᴜ ʙᴇʟᴏᴡ<b>"""
+    START_TXT ="""🎬 Welcome to BadshaCatBot! 🎬
+
+Message me in PM to download your favorite movies for free! Fast, easy, and perfect for movie nights! 🍿
+
+👉 Stay updated on new releases and features by joining our <a href='https://t.me/BadshaCat'>Updates Channel</a>."""
     HELP_TXT = """<b>ʜᴇʏ {}
 ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ꜰᴏʀ ᴍʏ ᴇxᴛʀᴀ ғᴇᴀᴛᴜʀᴇs.</b>"""
 
