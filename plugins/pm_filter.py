@@ -774,9 +774,9 @@ async def auto_filter(client, msg, spoll=False):
             try:
                 if settings['auto_delete']:
                     await asyncio.sleep(600)
-                    dle=await message.reply('ask another movie 👇')
+                    
                     await pic_fi.delete()
-                    await dle.delete()
+                    
                     await message.delete()
             except KeyError:
                 grpid = await active_connection(str(message.from_user.id))
@@ -784,9 +784,9 @@ async def auto_filter(client, msg, spoll=False):
                 settings = await get_settings(message.chat.id)
                 if settings['auto_delete']:
                     await asyncio.sleep(600)
-                    dle=await message.reply('ask another movie 👇')
+                    
                     await pic_fi.delete()
-                    await dle.delete()
+                    
                     await message.delete()
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
@@ -795,9 +795,9 @@ async def auto_filter(client, msg, spoll=False):
             try:
                 if settings['auto_delete']:
                     await asyncio.sleep(600)
-                    dle=await message.reply('ask another movie 👇')
+                    
                     await pic_fi.delete()
-                    await dle.delete()
+                    
                     await message.delete()
             except KeyError:
                 grpid = await active_connection(str(message.from_user.id))
@@ -805,9 +805,9 @@ async def auto_filter(client, msg, spoll=False):
                 settings = await get_settings(message.chat.id)
                 if settings['auto_delete']:
                     await asyncio.sleep(600)
-                    dle=await message.reply('ask another movie 👇')
+                    
                     await pic_fi.delete()
-                    await dle.delete()
+                    
                     await message.delete()
         except Exception as e:
             logger.exception(e)
@@ -815,9 +815,9 @@ async def auto_filter(client, msg, spoll=False):
             try:
                 if settings['auto_delete']:
                     await asyncio.sleep(600)
-                    dle=await message.reply('ask another movie 👇')
+                    
                     await pic_fi.delete()
-                    await dle.delete()
+                    
                     await message.delete()
             except KeyError:
                 grpid = await active_connection(str(message.from_user.id))
@@ -825,18 +825,18 @@ async def auto_filter(client, msg, spoll=False):
                 settings = await get_settings(message.chat.id)
                 if settings['auto_delete']:
                     await asyncio.sleep(600)
-                    dle=await message.reply('ask another movie 👇')
+                    
                     await pic_fi.delete()
-                    await dle.delete()
+                    
                     await message.delete()
     else:
         no_fil=await message.reply_text(text=cap, reply_markup=InlineKeyboardMarkup(btn))
         try:
             if settings['auto_delete']:
                 await asyncio.sleep(600)
-                    dle=await message.reply('ask another movie 👇')
+                    
                     await pic_fi.delete()
-                    await dle.delete()
+                    
                     await message.delete()
         except KeyError:
             grpid = await active_connection(str(message.from_user.id))
@@ -844,9 +844,9 @@ async def auto_filter(client, msg, spoll=False):
             settings = await get_settings(message.chat.id)
             if settings['auto_delete']:
                 await asyncio.sleep(600)
-                    dle=await message.reply('ask another movie 👇')
+                    
                     await pic_fi.delete()
-                    await dle.delete()
+                    
                     await message.delete()
     if spoll:
         await msg.message.delete()
