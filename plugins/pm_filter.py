@@ -803,7 +803,7 @@ async def auto_filter(client, msg, spoll=False):
             try:
                 if settings['auto_delete']:
                     await asyncio.sleep(600)
-                    await pic_fil.delete()
+                    await no_pic.delete()
                     await message.delete()
             except KeyError:
                 grpid = await active_connection(str(message.from_user.id))
@@ -811,14 +811,14 @@ async def auto_filter(client, msg, spoll=False):
                 settings = await get_settings(message.chat.id)
                 if settings['auto_delete']:
                     await asyncio.sleep(600)
-                    await pic_fil.delete()
+                    await no_pic.delete()
                     await message.delete()
     else:
         no_fil=await message.reply_text(text=cap, reply_markup=InlineKeyboardMarkup(btn))
         try:
             if settings['auto_delete']:
                 await asyncio.sleep(600)
-                await pic_fil.delete()
+                await no_fil.delete()
                 await message.delete()
         except KeyError:
             grpid = await active_connection(str(message.from_user.id))
@@ -826,7 +826,7 @@ async def auto_filter(client, msg, spoll=False):
             settings = await get_settings(message.chat.id)
             if settings['auto_delete']:
                 await asyncio.sleep(600) 
-                await pic_fil.delete()
+                await no_fil.delete()
                 await message.delete()
     if spoll:
         await msg.message.delete()
