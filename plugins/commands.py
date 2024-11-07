@@ -51,7 +51,6 @@ async def start(client, message):
         )
         lone=await message.reply_text(text="if you need another, ask your movie name here 👇")
         await asyncio.sleep(600)
-        await no_fil.delete()
         await alone.delete()
         await lone.delete()
         await message.delete()
@@ -72,7 +71,6 @@ async def start(client, message):
         )
         lone=await message.reply_text(text="if you need another, ask your movie name here 👇")
         await asyncio.sleep(600)
-        await no_fil.delete()
         await alone.delete()
         await lone.delete()
         await message.delete()
@@ -201,6 +199,10 @@ async def start(client, message):
                 except:
                     return
             await msg.edit_caption(f_caption)
+            lone=await message.reply_text(text="if you need another, ask your movie name here 👇")
+            await asyncio.sleep(600)
+            await lone.delete()
+            await message.delete()
             return
         except:
             pass
@@ -224,7 +226,10 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('❤️‍🔥 Download Movies ❤️‍🔥', url=(MAIN_CHANNEL)) ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
-    
+    lone=await message.reply_text(text="if you need another, ask your movie name here 👇")
+    await asyncio.sleep(600)
+    await lone.delete()
+    await message.delete()
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
 async def channel_info(bot, message):
