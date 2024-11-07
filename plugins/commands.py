@@ -64,9 +64,9 @@ async def start(client, message):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-        await message.reply('Ask your movie here 👇', quote=True)
+        glf=await message.reply('Ask your movie here 👇', quote=True)
         await asyncio.sleep(500) 
-        await message.delete()
+        await glf.delete()
         
         return
     kk, file_id = message.command[1].split("_", 1) if "_" in message.command[1] else (False, False)
@@ -215,9 +215,12 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('❤️‍🔥 Download Movies ❤️‍🔥', url=(MAIN_CHANNEL)) ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
-    await message.reply('Movie will be auto deleted within 5 minutes to avoid copyright restrictions, kindly forward into your saved messages asap', quote=True)
-    await message.reply('If you need another movie, kindly request here 👇', quote=True)
-                    
+    slm=await message.reply('Movie will be auto deleted within 5 minutes to avoid copyright restrictions, kindly forward into your saved messages asap')
+    gqd=await message.reply('If you need another movie, kindly request here 👇')
+    await asyncio.sleep(600)
+    await slm.delete()
+    await gqd.delete()
+    await message.delete()
 
 @Client.on_message(filters.command('channel') & filters.user(ADMINS))
 async def channel_info(bot, message):
