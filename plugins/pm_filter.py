@@ -670,7 +670,13 @@ async def auto_filter(client, msg, spoll=False):
     if not spoll:
         message = msg
         settings = await get_settings(message.chat.id)
-        if message.text.startswith("/"): return  # ignore commands
+        
+        if not message.text:
+            return  # exit if message has no text or is None
+
+        if message.text.startswith("/"): 
+            return  # ignore commands
+
         if re.findall("((^\/|^,|^!|^\.|^[\U0001F600-\U000E007F]).*)", message.text):
             return
         if len(message.text) < 100:
@@ -768,7 +774,9 @@ async def auto_filter(client, msg, spoll=False):
             try:
                 if settings['auto_delete']:
                     await asyncio.sleep(600)
+                    dle=await message.reply('ask another movie 👇')
                     await pic_fi.delete()
+                    await dle.delete()
                     await message.delete()
             except KeyError:
                 grpid = await active_connection(str(message.from_user.id))
@@ -776,7 +784,9 @@ async def auto_filter(client, msg, spoll=False):
                 settings = await get_settings(message.chat.id)
                 if settings['auto_delete']:
                     await asyncio.sleep(600)
+                    dle=await message.reply('ask another movie 👇')
                     await pic_fi.delete()
+                    await dle.delete()
                     await message.delete()
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
@@ -785,7 +795,9 @@ async def auto_filter(client, msg, spoll=False):
             try:
                 if settings['auto_delete']:
                     await asyncio.sleep(600)
-                    await pic_fil.delete()
+                    dle=await message.reply('ask another movie 👇')
+                    await pic_fi.delete()
+                    await dle.delete()
                     await message.delete()
             except KeyError:
                 grpid = await active_connection(str(message.from_user.id))
@@ -793,7 +805,9 @@ async def auto_filter(client, msg, spoll=False):
                 settings = await get_settings(message.chat.id)
                 if settings['auto_delete']:
                     await asyncio.sleep(600)
-                    await pic_fil.delete()
+                    dle=await message.reply('ask another movie 👇')
+                    await pic_fi.delete()
+                    await dle.delete()
                     await message.delete()
         except Exception as e:
             logger.exception(e)
@@ -801,7 +815,9 @@ async def auto_filter(client, msg, spoll=False):
             try:
                 if settings['auto_delete']:
                     await asyncio.sleep(600)
-                    await no_pic.delete()
+                    dle=await message.reply('ask another movie 👇')
+                    await pic_fi.delete()
+                    await dle.delete()
                     await message.delete()
             except KeyError:
                 grpid = await active_connection(str(message.from_user.id))
@@ -809,23 +825,29 @@ async def auto_filter(client, msg, spoll=False):
                 settings = await get_settings(message.chat.id)
                 if settings['auto_delete']:
                     await asyncio.sleep(600)
-                    await no_pic.delete()
+                    dle=await message.reply('ask another movie 👇')
+                    await pic_fi.delete()
+                    await dle.delete()
                     await message.delete()
     else:
         no_fil=await message.reply_text(text=cap, reply_markup=InlineKeyboardMarkup(btn))
         try:
             if settings['auto_delete']:
                 await asyncio.sleep(600)
-                await no_fil.delete()
-                await message.delete()
+                    dle=await message.reply('ask another movie 👇')
+                    await pic_fi.delete()
+                    await dle.delete()
+                    await message.delete()
         except KeyError:
             grpid = await active_connection(str(message.from_user.id))
             await save_group_settings(grpid, 'auto_delete', True)
             settings = await get_settings(message.chat.id)
             if settings['auto_delete']:
                 await asyncio.sleep(600)
-                await no_fil.delete()
-                await message.delete()
+                    dle=await message.reply('ask another movie 👇')
+                    await pic_fi.delete()
+                    await dle.delete()
+                    await message.delete()
     if spoll:
         await msg.message.delete()
 
