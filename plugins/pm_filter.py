@@ -789,7 +789,7 @@ async def auto_filter(client, msg, spoll=False):
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
             pic_fil=await message.reply_photo(photo=poster, caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
             await asyncio.sleep(30)
-            pelli=await message.reply_text(text="<b>If you need another, ask your movie name here 👇<\b>")
+            pelli=await message.reply_text(text="<b>If you need another, ask your movie name here 👇</b>")
             try:
                 if settings['auto_delete']:
                     await asyncio.sleep(600)
@@ -809,7 +809,7 @@ async def auto_filter(client, msg, spoll=False):
             logger.exception(e)
             no_pic=await message.reply_text(text=cap, reply_markup=InlineKeyboardMarkup(btn))
             await asyncio.sleep(30)
-            dell=await message.reply_text(text="<b>If you need another, ask your movie name here 👇<\b>")
+            dell=await message.reply_text(text="<b>If you need another, ask your movie name here 👇</b>")
             try:
                 if settings['auto_delete']:
                     await asyncio.sleep(600)
@@ -828,7 +828,7 @@ async def auto_filter(client, msg, spoll=False):
     else:
         no_fil=await message.reply_text(text=cap, reply_markup=InlineKeyboardMarkup(btn))
         await asyncio.sleep(30)
-        nelli=await message.reply_text(text="<b>If you need another, ask your movie name here 👇<\b>")
+        nelli=await message.reply_text(text="<b>If you need another, ask your movie name here 👇</b>")
         try:
             if settings['auto_delete']:
                 await asyncio.sleep(600)
