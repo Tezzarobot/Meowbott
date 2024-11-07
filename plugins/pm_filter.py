@@ -767,13 +767,12 @@ async def auto_filter(client, msg, spoll=False):
         try:
             pic_fi=await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
                                       reply_markup=InlineKeyboardMarkup(btn))
-            bell=await message.reply_text(text="save the files to saved messages, before it getting deleted")
-            belly=await message.reply_text(text="if you need another, ask your movie name here 👇")
+            await asyncio.sleep(30)
+            belly=await message.reply_text(text="<b>If you need another, ask your movie name here 👇</b>")
             try:
                 if settings['auto_delete']:
                     await asyncio.sleep(600)
                     await pic_fi.delete()
-                    await bell.delete()
                     await belly.delete()
                     await message.delete()
             except KeyError:
@@ -783,14 +782,14 @@ async def auto_filter(client, msg, spoll=False):
                 if settings['auto_delete']:
                     await asyncio.sleep(600)
                     await pic_fi.delete()
-                    await bell.delete()
                     await belly.delete()
                     await message.delete()
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
             pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg")
             pic_fil=await message.reply_photo(photo=poster, caption=cap[:1024], reply_markup=InlineKeyboardMarkup(btn))
-            pelli=await message.reply_text(text="if you need another, ask your movie name here 👇")
+            await asyncio.sleep(30)
+            pelli=await message.reply_text(text="<b>If you need another, ask your movie name here 👇<\b>")
             try:
                 if settings['auto_delete']:
                     await asyncio.sleep(600)
@@ -809,7 +808,8 @@ async def auto_filter(client, msg, spoll=False):
         except Exception as e:
             logger.exception(e)
             no_pic=await message.reply_text(text=cap, reply_markup=InlineKeyboardMarkup(btn))
-            dell=await message.reply_text(text="if you need another, ask your movie name here 👇")
+            await asyncio.sleep(30)
+            dell=await message.reply_text(text="<b>If you need another, ask your movie name here 👇<\b>")
             try:
                 if settings['auto_delete']:
                     await asyncio.sleep(600)
@@ -827,7 +827,8 @@ async def auto_filter(client, msg, spoll=False):
                     await message.delete()
     else:
         no_fil=await message.reply_text(text=cap, reply_markup=InlineKeyboardMarkup(btn))
-        nelli=await message.reply_text(text="if you need another, ask your movie name here 👇")
+        await asyncio.sleep(30)
+        nelli=await message.reply_text(text="<b>If you need another, ask your movie name here 👇<\b>")
         try:
             if settings['auto_delete']:
                 await asyncio.sleep(600)
