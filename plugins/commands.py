@@ -50,7 +50,7 @@ async def start(client, message):
             parse_mode=enums.ParseMode.HTML
         )
         await asyncio.sleep(10)
-        lone=await message.reply_text(text="<b>Ask your movie name here 👇<\b>")
+        lone=await message.reply_text(text="<b>Ask your movie name here 👇</b>")
         await asyncio.sleep(600)
         await alone.delete()
         await lone.delete()
@@ -71,7 +71,7 @@ async def start(client, message):
             parse_mode=enums.ParseMode.HTML
         )
         await asyncio.sleep(10)
-        lone=await message.reply_text(text="<b>Ask your movie name here 👇<\b>")
+        lone=await message.reply_text(text="<b>Ask your movie name here 👇</b>")
         await asyncio.sleep(600)
         await alone.delete()
         await lone.delete()
@@ -202,7 +202,7 @@ async def start(client, message):
                     return
             await msg.edit_caption(f_caption)
             await asyncio.sleep(30)
-            lone=await message.reply_text(text="<b>Ask your movie name here 👇<\b>")
+            lone=await message.reply_text(text="<b>Ask your movie name here 👇</b>")
             await asyncio.sleep(600)
             await lone.delete()
             await message.delete()
